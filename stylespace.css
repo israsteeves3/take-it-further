@@ -2,3 +2,7 @@ body{
     background-color: rgb(124, 121, 201);
     color: rgb(75, 31, 170);
 }
+tr{
+    border-bottom: 1px solid rgb(124, 121, 201);
+}
+This doesnt work figure out why 

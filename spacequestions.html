@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>questionaire</title>
+    <title>SpaceQuestionaire</title>
+    <link rel="stylesheet" href="stylespace.css">
 </head>
 <body>
-    
+    <h1>Please answer the following questions</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+      <p>Do you have any underlying health conditions? FIX I CAN PICK BOTH AND CAN NOT DESELECT</p>
+      <form>
+        <input type="radio" id="html" name="yes" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="css" name="no" value="no">
+        <label for="no">No</label><br>
+      </form>
+    <p>Whatcha Got?</p>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Diabetes</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Depression</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Help</label>
+      </form>
+<form><input type="Submit" value="Submit"></form>
+
 </body>
 </html>
